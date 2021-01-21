@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/item_cart"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="never"
+        android:title="My Cart" />
+
+    <item
+        android:id="@+id/item_jumpto"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="never"
+        android:title="Jump To:">
+
+        <menu>
+            <item
+                android:id="@+id/item_phones"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="never"
+                android:title="Mobile Phones" />
+            <item
+                android:id="@+id/item_tvs"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="never"
+                android:title="TVs" />
+            <item
+                android:id="@+id/item_configurations"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="never"
+                android:title="PC Configurations" />
+            <item
+                android:id="@+id/item_components"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="never"
+                android:title="PC Components" />
+            <item
+                android:id="@+id/item_peripherals"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="never"
+                android:title="PC Peripherals" />
+            <item
+                android:id="@+id/item_laptops"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="never"
+                android:title="Laptops and Notebooks" />
+        </menu>
+
+    </item>
+</menu>
